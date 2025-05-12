@@ -12,7 +12,7 @@ app.use("/", express.static(path.join(__dirname, "public")));
 
 app.use(
     cors({
-       origin: "https://task-manager-frontend-cmfi.onrender.com",
+       origin: "https://task-manager-frontend-ocfr.onrender.com",
         methods: ["GET", "POST", "DELETE", "PUT"], 
         credentials: true,
     })
