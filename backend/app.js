@@ -12,7 +12,7 @@ app.use("/", express.static(path.join(__dirname, "public")));
 
 app.use(
     cors({
-       origin: "https://moonlit-scone-3175c9.netlify.app/",
+       origin: "https://task-manager-frontend-cmfi.onrender.com",
         methods: ["GET", "POST", "DELETE", "PUT"], 
         credentials: true,
     })
