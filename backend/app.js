@@ -12,7 +12,7 @@ app.use("/", express.static(path.join(__dirname, "public")));
 
 app.use(
     cors({
-       origin: "http://localhost:3000",
+       origin: "https://moonlit-scone-3175c9.netlify.app/",
         methods: ["GET", "POST", "DELETE", "PUT"], 
         credentials: true,
     })
